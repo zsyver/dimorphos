@@ -6,6 +6,8 @@ def index(request):
     print('Request for index page received')
     return render(request, 'hello_azure/index.html')
 
+    #View file
+
 @csrf_exempt
 def hello(request):
     if request.method == 'POST':
